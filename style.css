@@ -47,7 +47,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 2em;
-    background-color: #27d5d5;
+    background-color: #eff7f7;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     height: 600px;
 }
@@ -180,6 +180,36 @@ a:hover {
     display: flex;
     align-items: center;
     overflow-x: auto;
+}
+.project1 {
+    background-color: #46a68634;
+    border-radius: 15px;
+    max-width: 45%;
+    padding: 10px;
+    text-align: center;
+}
+
+.project1 img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.btn4 {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.btn4:hover {
+    background-color: #0056b3;
 }
 
 .footer {
